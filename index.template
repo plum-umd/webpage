@@ -55,7 +55,7 @@
 	  <tbody>
 	    <tr>
 	      <td>
-		<table bgcolor="#ffffff" border="0" cellpadding="1" cellspacing="0" width="75" style="border-right: solid #FFC240 1px;">
+		<table bgcolor="#ffffff" border="0" cellpadding="1" cellspacing="0" width="140" style="border-right: solid #FFC240 1px;" style="padding-right:50em;">
 		  <tbody>
 
 		    <tr>
@@ -145,10 +145,10 @@
 		    </tr>
 		    
 		    <tr>
-		      <td nowrap="nowrap" valign="top" width="75"> <B>Alumni</B> </td>
+		      <td nowrap="nowrap" valign="top" width="75"> <B>Alumni (PhD)</B> </td>
 		    </tr>
-
-		    {% for person in alumni %}
+		    
+		    {% for person in alumni-phd %}
 		    <tr>
 		      <td nowrap="nowrap"> 
 			{% if person.webpage %}			
@@ -159,21 +159,50 @@
 		      </td>
 		    </tr>
 		    {% endfor %}
+
+		    <tr>
+		      <td nowrap="nowrap"><span class="px6">&nbsp;</span> </td>
+		    </tr>
+
+		    <tr>
+		      <td style="white-space:nowrap;" valign="top" width="75"> <B>Alumni (post-doc)</B> </td>
+		    </tr>
+		    
+		    {% for person in alumni-postdoc %}
+		    <tr>
+		      <td nowrap="nowrap"> 
+			{% if person.webpage %}			
+			<a href="{{person.webpage}}" class="sidebar-item">
+			  {% endif %}
+			{{person.name}}
+			{% if person.webpage %}</a> {% endif %}
+		      </td>
+		    </tr>
+		    {% endfor %}
+
+		    <tr>
+		      <td nowrap="nowrap"><span class="px6">&nbsp;</span> </td>
+		    </tr>
+
+		    <tr>
+		      <td nowrap="nowrap" valign="top" width="75"> <B>Alumni (ugrad)</B> </td>
+		    </tr>
+		    
+		    {% for person in alumni-ugrad %}
+		    <tr>
+		      <td nowrap="nowrap"> 
+			{% if person.webpage %}			
+			<a href="{{person.webpage}}" class="sidebar-item">
+			  {% endif %}
+			{{person.name}}
+			{% if person.webpage %}</a> {% endif %}
+		      </td>
+		    </tr>
+		    {% endfor %}
+
 </tbody>
 </table>
 </td>
-<!-- the thin yellow line :) -->
-<!--<td bgcolor="#ffffff" nowrap="nowrap" valign="top" width="2"><img
-								src="images/spacer.gif"
-								alt="space" height="1" width="1"></td>
-<td bgcolor="#ffcc33" nowrap="nowrap" valign="top" width="0"><img
-								src="images/spacer.gif"
-								alt="space" height="1" width="1"></td>
-<td bgcolor="#ffffff" nowrap="nowrap" valign="top" width="6"><img
-								src="images/spacer.gif"
-								alt="space" height="1" width="1"></td>
--->
-
 </tr>
 </tbody>
 </table>
@@ -232,7 +261,8 @@
   <td> CMSC 631 </td>
   <td>&nbsp;</td>
   <td align="left"> Program Analysis and Understanding
-    (<a href="http://www.cs.umd.edu/class/fall2011/cmsc631/">Fall 2011</a>,
+    (<a href="http://www.cs.umd.edu/class/spring2013/cmsc631/">Spring 2013</a>,
+    <a href="http://www.cs.umd.edu/class/fall2011/cmsc631/">Fall 2011</a>,
     <a href="http://www.cs.umd.edu/class/fall2010/cmsc631/">Fall 2010</a>,
     <a href="http://www.cs.umd.edu/class/fall2009/cmsc631/">Fall 2009</a>,
     <a href="http://www.cs.umd.edu/class/spring2009/cmsc631/">Spring 2009</a>,
