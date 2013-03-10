@@ -1,0 +1,206 @@
+[
+    {
+	"name": "Aseem Rastogi",
+	"position": "student",
+	"webpage": "http://www.cs.umd.edu/~aseem/"
+    },
+    {
+	"name": "James Parker",
+	"position": "student",
+	"webpage": " http://jamesparker.me/"
+    },
+    {
+	"name": "Lu&iacute;s Pina",
+	"position": "student"
+    },
+    {
+	"name": "Kristopher Micinski",
+	"position": "student",
+	"webpage": "http://www.cs.umd.edu/~micinski"
+    },
+    {
+	"name": "Jinseong Jeon",
+	"position": "student",
+	"webpage": "http://www.cs.umd.edu/~jsjeon/"
+    },
+    {
+	"name": "Yit Phang Khoo",
+	"position": "student",
+	"webpage": "http://www.cs.umd.edu/~khooyp"
+    },
+    {
+	"name":"Piotr Mardziel",
+	"position": "student",
+	"webpage": "http://www.cs.umd.edu/~piotrm"
+    },
+    {
+	"name": "Karla Saur",
+	"position": "student",
+	"webpage":"http://www.cs.umd.edu/~ksaur/"
+    },
+    {
+	"name": "Brianna Ren",
+	"position": "student"
+    },
+    {
+	"name": "Ted Smith (ugrad)",
+	"position": "student",
+	"webpage":"http://www.cs.umd.edu/~tedks"
+    },
+    {
+	"name": "Jeff Foster",
+	"position": "faculty",
+	"webpage": "http://www.cs.umd.edu/~jfoster"
+    },
+    {
+	"name": "Mike Hicks",
+	"position": "faculty",
+	"webpage": "http://www.cs.umd.edu/~mwh/"
+    },
+    { 
+	"name": "Stevie Strickland",
+	"position": "postdoc",
+	"webpage":"http://www.ccs.neu.edu/home/sstrickl/"
+    },
+    {
+	"name": "Matthew Hammer",
+	"position": "postdoc",
+	"webpage": "http://www.cs.umd.edu/~hammer/"
+    },
+    {
+	"name": "Nataliya Guts",
+	"position": "alumni",
+	"webpage": "http://www.ortsa.com/nataliya.guts/"
+    },
+    {
+	"name": "Kin Keung Ma",
+	"position": "alumni",
+	"webpage": "http://www.cs.umd.edu/~kkma"
+    },
+    {
+	"name": "Stephen Magill (post-doc)",
+	"position": "alumni",
+	"webpage": "http://www.cs.cmu.edu/~smagill"
+    },
+    {
+	"name": "Jonathan Turpie",
+	"position": "alumni",
+	"webpage": ""
+    },
+    { 
+	"name": "Elnatan Reisner (M.S.)",
+	"position": "alumni",
+	"webpage": "http://www.cs.umd.edu/~elnatan"
+    },
+    {
+	"name": "David An (M.S.)",
+	"position": "alumni",
+	"webpage": "http://www.cs.umd.edu/~davidan"
+    },
+    {
+	"name": "Nat Ayewah",
+	"position": "alumni",
+	"webpage": "http://www.cs.umd.edu/~ayewah/"
+    },
+    {
+	"name": "Evan Chang (post-doc)",
+	"position": "alumni",
+	"webpage": "http://www.cs.colorado.edu/~bec/"
+    },
+    { 
+	"name": "Avik Chaudhuri (post-doc)",
+	"position": "alumni",
+	"webpage": "http://www.cs.umd.edu/~avik"
+    },
+    {
+	"name": "Brian Corcoran (M.S.)",
+	"position": "alumni",
+	"webpage": ""
+    },
+    {
+	"name": "Mark Daly",
+	"position": "alumni",
+	"webpage": "http://www.cs.umd.edu/~mdaly"
+    },
+    {
+	"name": "Adam Fuchs",
+	"position": "alumni"
+    },
+    {
+	"name": "Mike Furr",
+	"position": "alumni",
+	"webpage": "http://www.cs.umd.edu/~furr"
+    },
+    {
+	"name": "D. Greenfieldboyce (M.S.)",
+	"position": "alumni"
+    },
+    {
+	"name": "Dave Hovemeyer",
+	"position": "alumni",
+	"webpage": "http://faculty.ycp.edu/~dhovemey/"
+    },
+    {
+	"name": "Benjamin Kirzhner (ugrad)",
+	"position": "alumni",
+	"webpage": "http://www.cs.colorado.edu/~bec/"
+    },
+    {
+	"name": "Nick Kuilema (M.S.)",
+	"position": "alumni"
+    },
+    {
+	"name": "Jeremy Manson",
+	"position": "alumni"
+    },
+    {
+	"name": "Jeff Meister (ugrad)",
+	"position": "alumni",
+	"webpage": "http://www.cs.ucsd.edu/~jmeister"
+    },
+    {
+	"name":"Iulian Neamtiu",
+	"position": "alumni",
+	"webpage":"http://www.cs.ucr.edu/~neamtiu"
+    },
+    {
+	"name":"Manuel Oriol (post-doc)",
+	"position": "alumni",
+	"webpage": "http://se.inf.ethz.ch/~moriol/"
+    },
+    {
+	"name":"Pavlos Papageorge",
+	"position": "alumni",
+	"webpage":"http://www.cs.umd.edu/~pavlos"
+    },
+    {
+	"name":"Nick L. Petroni, Jr.",
+	"position": "alumni",
+	"webpage":"http://www.cs.umd.edu/~npetroni"
+    },
+    {
+	"name":"Polyvios Pratikakis",
+	"position": "alumni",
+	"webpage": "http://www.ics.forth.gr/~polyvios/"
+    },
+    {
+	"name":"James Rose (M.S.)",
+	"position": "alumni"
+    },
+    {
+	"name":"Jaime Spacco",
+	"position": "alumni",
+	"webpage":"http://www.knox.edu/academics/faculty/spacco-jaime.html"
+    },
+    {
+	"name":"Saurabh Srivastava",
+	"position": "alumni",
+	"webpage":"http://www.cs.umd.edu/~saurabhs"
+    },
+    {
+	"name":"Nikhil Swamy",
+	"position": "alumni",
+	"webpage":"http://research.microsoft.com/en-us/people/nswamy/"
+    }
+]
+

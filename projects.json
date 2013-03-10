@@ -1,0 +1,45 @@
+[
+    {
+	"name": "RTC",
+	"description": "The Ruby Type Checker",
+	"webpage": "https://github.com/plum-umd/rtc"
+    },
+    {
+	"name": "Redexer",
+	"description": "Binary rewriting for Android security",
+	"webpage": "http://www.cs.umd.edu/projects/PL/redexer/"
+    },
+    {
+	"name": "Otter",
+	"description": "Symbolic execution for C programs",
+	"webpage": "https://bitbucket.org/khooyp/otter",
+	"long_desc": "project_descriptions/otter_desc.html"
+    },
+    {
+	"name": "COCO",
+	"description": "Type coercions for program rewriting",
+	"webpage": "http://research.microsoft.com/en-us/projects/coco/",
+	"long_desc": "coco_desc"
+    },
+    {
+	"name": "FindBugs",
+	"webpage": "http://findbugs.sourceforge.net/",
+	"description": "A program that finds bugs in Java programs"
+    },
+    {
+	"name": "Marmoset",
+	"webpage": "http://www.cs.umd.edu/~jspacco/marmoset",
+	"description": "Mining software repositories to help students learn to program"
+    },
+    {
+	"name": "Path Projection",
+	"webpage": "PP/",
+	"description": "Visualizing program paths for user-centered static analysis"
+    },
+    {
+	"name": "SCORE",
+	"webpage": "http://www.cs.umd.edu/projects/PL/score",
+	"description": "Agile Research Group Management (how we run PLUM)"
+    }
+]
+
