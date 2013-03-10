@@ -5,10 +5,10 @@ To generate the site just use
 
     ./generate_website.sh
 
-The configuration is based on two files:
+The configuration (in the `conf/` directory) is based on two files:
 
- - people.json -- To describe people
- - projects.json -- To describe current projects
+ - `people.json` -- To describe people
+ - `projects.json` -- To describe current projects
 
 `people.json` is used to configure and set up group members.  If you
 need to edit or add positions of group members, please use this file.

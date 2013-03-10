@@ -6,9 +6,10 @@ require './project'
 
 # Tells us where things are.
 class Templates
+  CONF = Dir.pwd + '/config/'
   INDEX = 'index.template'
-  PEOPLE = 'people.json'
-  PROJECTS = 'projects.json'
+  PEOPLE = CONF + 'people.json'
+  PROJECTS = CONF + 'projects.json'
 end
 
 # Generate the index page
