@@ -185,6 +185,26 @@
 		    </tr>
 
 		    <tr>
+		      <td nowrap="nowrap" valign="top" width="75"> <B>Alumni (MS)</B> </td>
+		    </tr>
+		    
+		    {% for person in alumni-masters %}
+		    <tr>
+		      <td nowrap="nowrap"> 
+			{% if person.webpage %}			
+			<a href="{{person.webpage}}" class="sidebar-item">
+			  {% endif %}
+			{{person.name}}
+			{% if person.webpage %}</a> {% endif %}
+		      </td>
+		    </tr>
+		    {% endfor %}
+
+		    <tr>
+		      <td nowrap="nowrap"><span class="px6">&nbsp;</span> </td>
+		    </tr>
+
+		    <tr>
 		      <td nowrap="nowrap" valign="top" width="75"> <B>Alumni (ugrad)</B> </td>
 		    </tr>
 		    
@@ -325,6 +345,15 @@
   <td>&nbsp;</td>
 </tr>
 <tr><td><B>PAST PROJECTS</B></td></tr>
+    <tr>
+      <td>
+      <a href="PP/">Path Projection</a>
+      </td>
+      <td></td>
+      <td>
+	Visualizing program paths for user-centered static analysis
+      </td>
+    </tr>
     <tr>
       <td>
       <a href="http://www.cs.umd.edu/projects/PL/druby">DRuby</a>

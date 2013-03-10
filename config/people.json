@@ -62,6 +62,11 @@
 	"position": "faculty",
 	"webpage": "http://www.cs.umd.edu/~mwh/"
     },
+    {
+	"name": "Bill Pugh (emeritus)",
+	"position": "faculty",
+	"webpage": "http://www.cs.umd.edu/~pugh/"
+    },
     { 
 	"name": "Stevie Strickland",
 	"position": "postdoc",
@@ -89,7 +94,7 @@
     },
     {
 	"name": "Jonathan Turpie",
-	"position": "alumni-ugrad",
+	"position": "alumni-masters",
 	"webpage": ""
     },
     { 
@@ -106,6 +111,26 @@
 	"name": "Nat Ayewah",
 	"position": "alumni-phd",
 	"webpage": "http://www.cs.umd.edu/~ayewah/"
+    },
+    {
+	"name": "Chris Hayden",
+	"position": "alumni-phd",
+	"webpage": "http://chrishayden.com"
+    },
+    {
+	"name": "Kin-Keung (Martin) Ma",
+	"webpage": "http://www.cs.umd.edu/~kkma/",
+	"position": "alumni-phd"
+    },
+    {
+	"name": "Mike Furr",
+	"position": "alumni-phd",
+	"webpage": "http://www.cs.umd.edu/~furr/"
+    },
+    {
+	"name": "Justin McCann",
+	"webpage": "http://www.cs.umd.edu/~jmccann/",
+	"position": "alumni-phd"
     },
     {
 	"name": "Evan Chang",
@@ -159,6 +184,10 @@
 	"position": "alumni-phd"
     },
     {
+	"name": "John Toman",
+	"position": "alumni-ugrad"
+    },
+    {
 	"name": "Jeff Meister",
 	"position": "alumni-ugrad",
 	"webpage": "http://www.cs.ucsd.edu/~jmeister"
@@ -187,10 +216,6 @@
 	"name":"Polyvios Pratikakis",
 	"position": "alumni-phd",
 	"webpage": "http://www.ics.forth.gr/~polyvios/"
-    },
-    {
-	"name":"James Rose",
-	"position": "alumni-phd"
     },
     {
 	"name":"Jaime Spacco",

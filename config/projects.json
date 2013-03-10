@@ -32,9 +32,9 @@
 	"description": "Mining software repositories to help students learn to program"
     },
     {
-	"name": "Path Projection",
-	"webpage": "PP/",
-	"description": "Visualizing program paths for user-centered static analysis"
+	"name": "Expositor",
+	"description": "Scriptable time-travel debugging",
+	"webpage": "https://bitbucket.org/khooyp/expositor"
     },
     {
 	"name": "SCORE",
