@@ -234,7 +234,7 @@
   <table>
     <tr><td colspan="3"> <B>CURRENT PROJECTS</B></td></tr>
 
-    {% for project in projects %}
+    {% for project in current %}
     <tr>
       <td> <a href="{{project.webpage}}">{{project.name}}</a>
       </td>
@@ -345,157 +345,15 @@
   <td>&nbsp;</td>
 </tr>
 <tr><td><B>PAST PROJECTS</B></td></tr>
+    {% for project in past %}
     <tr>
-      <td>
-      <a href="PP/">Path Projection</a>
+      <td> <a href="{{project.webpage}}">{{project.name}}</a>
       </td>
       <td></td>
-      <td>
-	Visualizing program paths for user-centered static analysis
-      </td>
+      <td>{{project.description}}</td>
     </tr>
-    <tr>
-      <td>
-      <a href="http://www.cs.umd.edu/projects/PL/druby">DRuby</a>
-      </td>
-      <td></td>
-      <td>
-	A tool that blends static and dynamic analysis for Ruby
-      </td>
-    </tr>
-    <tr>
-      <td> <a href="http://www.cs.umd.edu/projects/dsu"> Ginseng </a> </td>
-      <td>&nbsp;</td>
-      <td align="left"> Safe on-line software updating for C programs  </td>
-    </tr>			
+    {% endfor %}
 
-    <tr>
-      <td> <a
-	      href="http://www.cs.umd.edu/projects/PL/arrowlets">Arrowlets</a>
-      </td>
-      <td>&nbsp;</td>
-      <td align="left"> Directing JavaScript with arrows</td>
-    </tr>
-
-    <tr>
-      <td> <a href="http://www.research.att.com/~trevor/beep.html"> BEEP </a> </
-										 td>
-<td>&nbsp;</td>
-<td align="left"> Browser-enforced Embedded Policies to defeat script injection attacks</td>
-</tr>
-
-<tr>
-  <td> <a href="http://www.cs.umd.edu/projects/PL/CMod"> CMod </a> </
-								      td>
-<td>&nbsp;</td>
-<td align="left"> A tool for enforcing modular programming in C</td>
-</tr>
-
-<tr>
-  <td> <a href="http://www.cs.umd.edu/projects/PL/saus"> SAUS </a> </td>
-  <td>&nbsp;</td>
-  <td align="left">User studies exploring	Industrial Experiences Using Static Analysis Tools</td>
-</tr>
-
-
-<tr>
-  <td> <a
-	  href="http://www.cs.umd.edu/~saurabhs/pacs/">VS<sup>3</sup></a> </td>
-  <td>&nbsp;</td>
-  <td align="left"> <u>V</u>erification and <u>S</u>ynthesis using <u>S</u>MT <u>S</u>olvers </td>
-</tr>
-
-<tr>
-  <td> <a href="http://www.cs.umd.edu/~jfoster/cqual"> CQual </a> </td>
-  <td>&nbsp;</td>
-  <td align="left"> A framework for adding type qualifiers
-    to C</td>
-</tr>			
-
-
-<tr>
-  <td> <a href="http://cyclone.thelanguage.org/"> Cyclone </a> </td>
-  <td>&nbsp;</td>
-  <td align="left"> A type safe dialect of C that features advanced manual memory management </td>
-</tr>			
-
-<tr>
-  <td> <a href="/~nswamy/findlocks.html"> FindLocks </a> </td>
-  <td>&nbsp;</td>
-  <td align="left"> A combination of static and dynamic techniques for inferring lock types in Java programs	 </td>
-</tr>			
-
-<tr>
-  <td> <a href="http://www.cs.umd.edu/users/pugh/java/memoryModel/"> Java Memory Model </a> </td>
-  <td>&nbsp;</td>
-  <td align="left"> Defining the interaction through memory of Java threads </td>
-</tr>			
-
-<tr>
-  <td> <a href="http://www.cs.umd.edu/projects/PL/jqual"> JQual </a> </td>
-  <td>&nbsp;</td>
-  <td align="left"> Type qualifier inference for Java programs	</td>
-</tr>			
-
-<tr>
-  <td> <a href="http://www.cs.umd.edu/projects/PL/locksmith/"> Locksmith </a> </td>
-  <td>&nbsp;</td>
-  <td align="left"> Static analysis for race detection in C programs</td>
-</tr>
-
-
-<tr>
-  <td> <a href="http://www.cs.umd.edu/projects/PL/multithreadedtc/"> MultithreadedTC </a> </td>
-  <td>&nbsp;</td>
-  <td align="left"> A framework for testing concurrent Java applications </td>
-</tr>
-
-<tr>
-  <td> <a href="http://www.cs.umd.edu/projects/omega"> Omega Project </a> </td>
-  <td>&nbsp;</td>
-  <td align="left"> Analysis and transformations of scientific programs </td>
-</tr>			
-
-<tr>
-  <td> <a
-	  href="pistachio">
-      Pistachio </a>
-  <td>&nbsp;</td>
-  <td align="left"> A rule-based static analysis tool for
-    network protocol implementations </td>
-</tr>
-
-
-<tr>
-  <td> <a href="http://www.cs.umd.edu/~polyvios/proxyc"> Proxyc </a> </td>
-  <td>&nbsp;</td>
-  <td align="left"> A tool for programming with proxies in Java </td>
-</tr>
-
-<tr>
-  <td> <a href="http://www.cs.umd.edu/projects/PL/rx">RX</a> </td>
-  <td>&nbsp;</td>
-  <td align="left"> Languages that support dynamically updating security policies.</td>
-</tr>
-
-<tr>
-  <td> <a href="http://www.cs.umd.edu/~furr/saffire"> Saffire </a> </td>
-  <td>&nbsp;</td>
-  <td align="left">Static Analysis of Foreign Function InteRfacEs</td>
-</tr>
-
-<tr>
-  <td> <a href="http://www.cs.umd.edu/projects/PL/selinks"> SELinks </a> </td>
-  <td>&nbsp;</td>
-  <td align="left">End-to-end security for web applications</td>
-</tr>
-
-<tr>
-  <td> <a href="uno"> Uno </a> </td>
-  <td>&nbsp;</td>
-  <td align="left">Inferring aliasing and encapsulation
-    for Java</td>
-</tr>
 
 </table>
 

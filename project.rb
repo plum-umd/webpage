@@ -1,20 +1,15 @@
+require './liquid_data'
+
 class Project
-  attr_reader :name, :description, :webpage, :long_desc
+  include LiquidData
+  attr_reader :name, :description, :webpage, :status, :long_desc
   
   def initialize(map)
     @name = map["name"]
     @description = map["description"]
     @webpage = map["webpage"]
-    if map["long_desc"] then 
-      @long_desc = p File.read(map["long_desc"]) 
-    end
-  end
-  
-  def to_liquid
-    acc = instance_variables.inject({}) do |x,y|
-      x.merge(if instance_variable_get(y) then {y=>instance_variable_get(y)} else {} end)
-    end
-    acc
+    @status = map["status"]
+    @long_desc = File.read(map["long_desc"]) if map["long_desc"]
   end
   
 end

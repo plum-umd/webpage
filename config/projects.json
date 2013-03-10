@@ -1,45 +1,185 @@
 [
     {
 	"name": "RTC",
+        "status" : "current",
 	"description": "The Ruby Type Checker",
 	"webpage": "https://github.com/plum-umd/rtc"
     },
     {
 	"name": "Redexer",
+        "status" : "current",
 	"description": "Binary rewriting for Android security",
 	"webpage": "http://www.cs.umd.edu/projects/PL/redexer/"
     },
     {
 	"name": "Otter",
+        "status" : "current",
 	"description": "Symbolic execution for C programs",
 	"webpage": "https://bitbucket.org/khooyp/otter",
 	"long_desc": "project_descriptions/otter_desc.html"
     },
     {
 	"name": "COCO",
+        "status" : "current",
 	"description": "Type coercions for program rewriting",
 	"webpage": "http://research.microsoft.com/en-us/projects/coco/",
 	"long_desc": "coco_desc"
     },
     {
 	"name": "FindBugs",
+        "status" : "current",
 	"webpage": "http://findbugs.sourceforge.net/",
 	"description": "A program that finds bugs in Java programs"
     },
     {
 	"name": "Marmoset",
+        "status" : "current",
 	"webpage": "http://marmoset.cs.umd.edu/",
 	"description": "Mining software repositories to help students learn to program"
     },
     {
 	"name": "Expositor",
+        "status" : "current",
 	"description": "Scriptable time-travel debugging",
 	"webpage": "https://bitbucket.org/khooyp/expositor"
     },
     {
 	"name": "SCORE",
+        "status" : "current",
 	"webpage": "http://www.cs.umd.edu/projects/PL/score",
 	"description": "Agile Research Group Management (how we run PLUM)"
+    },
+    {
+        "name": "Path Projection",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/projects/PL/PP",
+        "description": "Visualizing program paths for user-centered static analysis"
+    },
+    {
+        "name": "DRuby",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/projects/PL/druby",
+        "description": "A tool that blends static and dynamic analysis for Ruby"
+    },
+    {
+        "name": "Ginseng",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/projects/dsu",
+        "description": "Safe on-line software updating for C programs"
+    },
+    {
+        "name": "Arrowlets",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/projects/PL/arrowlets",
+        "description": "Directing JavaScript with arrows"
+    },
+    {
+        "name": "BEEP",
+        "status": "past",
+        "webpage": "http://www.research.att.com/~trevor/beep.html",
+        "description": "Browser-enforced Embedded Policies to defeat script injection attacks"
+    },
+    {
+        "name": "CMod",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/projects/PL/CMod",
+        "description": "A tool for enforcing modular programming in C"
+    },
+    {
+        "name": "SAUS",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/projects/PL/saus",
+        "description": "User studies exploring Industrial Experiences Using Static Analysis Tools"
+    },
+    {
+        "name": "VS<sup>3</sup>",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/~saurabhs/pacs/",
+        "description": "<u>V</u>erification and <u>S</u>ynthesis using <u>S</u>MT <u>S</u>olvers"
+    },
+    {
+        "name": "CQual",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/~jfoster/cqual",
+        "description": "A framework for adding type qualifiers to C"
+    },
+    {
+        "name": "Cyclone",
+        "status": "past",
+        "webpage": "http://cyclone.thelanguage.org/",
+        "description": "A type safe dialect of C that features advanced manual memory management"
+    },
+    {
+        "name": "FindLocks",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/~nswamy/findlocks.html",
+        "description": "A combination of static and dynamic techniques for inferring lock types in Java programs"
+    },
+    {
+        "name": "Java Memory Model",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/users/pugh/java/memoryModel/",
+        "description": "Defining the interaction through memory of Java threads"
+    },
+    {
+        "name": "JQual",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/projects/PL/jqual",
+        "description": "Type qualifier inference for Java programs"
+    },
+    {
+        "name": "Locksmith",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/projects/PL/locksmith/",
+        "description": "Static analysis for race detection in C programs"
+    },
+    {
+        "name": "MultithreadedTC",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/projects/PL/multithreadedtc/",
+        "description": "A framework for testing concurrent Java applications"
+    },
+    {
+        "name": "Omega Project",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/projects/omega",
+        "description": "Analysis and transformations of scientific programs"
+    },
+    {
+        "name": "Pistachio",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/projects/PL/pistachio",
+        "description": "A rule-based static analysis tool for network protocol implementations"
+    },
+    {
+        "name": "Proxyc",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/~polyvios/proxyc",
+        "description": "A tool for programming with proxies in Java"
+    },
+    {
+        "name": "RX",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/projects/PL/rx",
+        "description": "Languages that support dynamically updating security policies."
+    },
+    {
+        "name": "Saffire",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/~furr/saffire",
+        "description": "Static Analysis of Foreign Function InteRfacEs"
+    },
+    {
+        "name": "SELinks",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/projects/PL/selinks",
+        "description": "End-to-end security for web applications"
+    },
+    {
+        "name": "Uno",
+        "status": "past",
+        "webpage": "http://www.cs.umd.edu/projects/PL/uno",
+        "description": "Inferring aliasing and encapsulation for Java"
     }
 ]
 
