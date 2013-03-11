@@ -8,7 +8,7 @@ To generate the site just run the following commands:
 
 To deploy the site, you can use the `deploy` rake target:
 
-    rake deploy["user"]
+    rake deploy[username] # e.g., rake deploy[sstrickl]
 
 This assumes you have the 'bundler' and 'rake' gems installed.
 
