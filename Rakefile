@@ -19,7 +19,9 @@ task :clean do
 end
 
 desc "Deploy on junkfood as username"
-task :deploy, :username do |t,args|
+task :deploy, [:username] => "index.html" do |t,args|
   puts "*** Deploying the site ***"
-  system "rsync -avz index.html #{args[:username]}@#{ssh_server}:#{remote_root}/index.html"
+  sh %Q{rsync -avz index.html "#{args[:username]}@#{ssh_server}:#{remote_root}/index.html"} do |ok, res|
+    puts "Deployment failed (status = #{res.exitstatus})" if !ok
+  end
 end
