@@ -24,6 +24,6 @@ task :deploy, [:username] => "index.html" do |t,args|
   remote = "#{ssh_server}:#{remote_root}"
   puts "*** Deploying the site to #{remote} as #{user}***"
     sh %Q{rsync -avz index.html "#{user}@#{remote}/index.html"} do |ok, res|
-    puts "Deployment failed (status = #{res.exitstatus})" if !ok
+    puts "*** Deployment failed (status = #{res.exitstatus}) ***" if !ok
   end
 end
