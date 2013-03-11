@@ -1,10 +1,14 @@
 # [PLUM][plum-url] website config
-author: Kris Micinski
+author: Kris Micinski, and Stevie Strickland 
 
 To generate the site just run the following commands:
 
     $ bundle install      # To get gem dependencies
     $ rake install        # To build index.html and then install it.
+
+To deploy the site, you can use the `deploy` rake target:
+
+    rake deploy["user"]
 
 This assumes you have the 'bundler' and 'rake' gems installed.
 

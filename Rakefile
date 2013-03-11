@@ -1,5 +1,8 @@
 task :default => ["index.html"]
 
+ssh_server = "junkfood.cs.umd.edu"
+remote_root = "/fs/www/projects/PL"
+
 file "index.html" do
   ruby "generate_index.rb"
 end
@@ -10,4 +13,10 @@ end
 
 task :clean do
   sh "rm index.html"
+end
+
+task :deploy, :user do |t,args|
+  puts "*** Deploying the site ***"
+  puts "rsync -avz --delete index.html #{args[:user]}@#{ssh_server}:#{remote_root}/index.html"
+  system "rsync -avz --delete index.html #{args[:user]}@#{ssh_server}:#{remote_root}/index.html"
 end
