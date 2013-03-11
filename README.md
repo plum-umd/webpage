@@ -1,5 +1,5 @@
 # [PLUM][plum-url] website config
-author: Kris Micinski, and Stevie Strickland 
+author: Kris Micinski and Stevie Strickland 
 
 To generate the site just run the following commands:
 

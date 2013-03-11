@@ -17,6 +17,6 @@ end
 
 task :deploy, :user do |t,args|
   puts "*** Deploying the site ***"
-  puts "rsync -avz --delete index.html #{args[:user]}@#{ssh_server}:#{remote_root}/index.html"
-  system "rsync -avz --delete index.html #{args[:user]}@#{ssh_server}:#{remote_root}/index.html"
+  puts "rsync -avz index.html #{args[:user]}@#{ssh_server}:#{remote_root}/index.html"
+  system "rsync -avz index.html #{args[:user]}@#{ssh_server}:#{remote_root}/index.html"
 end
