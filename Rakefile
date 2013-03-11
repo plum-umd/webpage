@@ -8,11 +8,11 @@ file "index.html" do
 end
 
 task :install => "index.html" do
-  sh "mv index.html .."
+  mv 'index.html', '..', verbose: true
 end
 
 task :clean do
-  sh "rm index.html"
+  rm 'index.html', force: true, verbose: true
 end
 
 task :deploy, :user do |t,args|
