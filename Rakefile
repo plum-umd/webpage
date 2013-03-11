@@ -20,8 +20,10 @@ end
 
 desc "Deploy on junkfood as username"
 task :deploy, [:username] => "index.html" do |t,args|
-  puts "*** Deploying the site ***"
-  sh %Q{rsync -avz index.html "#{args[:username]}@#{ssh_server}:#{remote_root}/index.html"} do |ok, res|
+  user = args[:username]
+  remote = "#{ssh_server}:#{remote_root}"
+  puts "*** Deploying the site to #{remote} as #{user}***"
+    sh %Q{rsync -avz index.html "#{user}@#{remote}/index.html"} do |ok, res|
     puts "Deployment failed (status = #{res.exitstatus})" if !ok
   end
 end
