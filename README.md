@@ -1,5 +1,5 @@
 # [PLUM][plum-url] website config
-author: Kris Micinski and Stevie Strickland 
+author: [Kris Micinski][kmicinski] and [Stevie Strickland][sstrickl]
 
 To generate the site just run the following commands:
 
@@ -29,3 +29,5 @@ The code that actually parses and generates these tools relies on the
 preprocessing), along with JSON.
 
 [plum-url]: http://www.cs.umd.edu/projects/PL/ "PLUM @ UMD"
+[kmicinski]: http://github.com/kmicinski/
+[sstrickl]: http://github.com/sstrickl/
