@@ -10,7 +10,7 @@ To deploy the site, you can use the `deploy` rake target:
 
     rake deploy[username] # e.g., rake deploy[sstrickl]
 
-This assumes you have the 'bundler' and 'rake' gems installed.
+This assumes you have the [bundler][] and [rake][] gems installed.
 
 The configuration (in the `conf/` directory) is based on two files:
 
@@ -25,9 +25,14 @@ Eventually I intend to expand it to have have drop down descriptions
 of the top projects along with associated papers.
 
 The code that actually parses and generates these tools relies on the
-`liquid` gem (the same thing used by Jekyll, but we don't really need
-preprocessing), along with JSON.
+[liquid][] gem (the same thing used by [Jekyll][], but we don't really need
+preprocessing), along with [JSON][].
 
 [plum-url]: http://www.cs.umd.edu/projects/PL/ "PLUM @ UMD"
 [kmicinski]: http://github.com/kmicinski/
 [sstrickl]: http://github.com/sstrickl/
+[bundler]: http://gembundler.com
+[rake]: http://rake.rubyforge.org
+[liquid]: http://liquidmarkup.org
+[Jekyll]: https://github.com/mojombo/jekyll
+[JSON]: http://flori.github.com/json/
