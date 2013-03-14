@@ -1,0 +1,17 @@
+[
+    {
+        "name" : "POPL 2010 PC Workshop",
+        "url"  : "popl-pc-workshop-2010",
+        "description" : "POPL 2010 Program Committee Workshop, October 2010"
+    },
+    {
+        "name" : "MAPLS 2007",
+        "url"  : "mapls2007",
+        "description" : "Mid-Atlantic Programming Languages Seminar, colocated with <a href = \"http://www.cis.upenn.edu/~stevez/njpls/\">NJPLS</a>, November 2007"
+    },
+    {
+        "name" : "MAPLS 2005",
+        "url" : "mapls2005",
+        "description" : "Mid-Atlantic Programming Languages Seminar, colocated with <a href = \"http://www.cis.upenn.edu/~stevez/njpls/\">NJPLS</a>, November 2005"
+    }
+]

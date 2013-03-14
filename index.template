@@ -252,22 +252,14 @@
   <td colspan="3"> <B>EVENTS</B> </td>
 </tr>
 
-<tr>
-  <td> <a href="popl-pc-workshop-2010">
-      POPL 2010 PC Workshop</a></td>
-  <td>&nbsp;</td>
-  <td align="left">POPL 2010 Program Committee Workshop, October
-    2010</td>
-</tr>
-<td> <a href="mapls2007"> MAPLS 2007 </a> </td>
-<td>&nbsp;</td>
-<td align="left"> Mid-Atlantic Programming Languages Seminar, colocated with <a href = "http://www.cis.upenn.edu/~stevez/njpls/">NJPLS</a>, November 2007 </td>
-</tr>
-<tr>
-  <td> <a href="mapls2005"> MAPLS 2005 </a> </td>
-  <td>&nbsp;</td>
-  <td align="left"> Mid-Atlantic Programming Languages Seminar, colocated with <a href = "http://www.cis.upenn.edu/~stevez/njpls/">NJPLS</a>, November 2005 </td>
-</tr>
+
+  {% for event in events %}
+  <tr>
+     <td> <a href="{{event.url}}">{{event.name}}</a></td>
+     <td></td>
+     <td align="left">{{event.description}}</td>
+   </tr>
+  {% endfor %}
 
 <tr>
   <td>&nbsp;</td>
