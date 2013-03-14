@@ -2,8 +2,8 @@ require 'bundler/setup'
 require 'json'
 require 'liquid'
 
-require './person'
-require './project'
+require './models/person'
+require './models/project'
 
 # Tells us where things are.
 class Templates
