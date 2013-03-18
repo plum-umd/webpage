@@ -1,4 +1,5 @@
 module LiquidData
+  class ValidationError < RuntimeError; end
 
   module ClassMethods
     attr_reader :fields, :readers
@@ -22,7 +23,7 @@ module LiquidData
     def validate(map)
       map.each_key do |k|
         unless fields.include? k
-          puts "Validation warning: unknown key #{k} in map: #{map}"
+          raise ValidationError, "unknown key #{k} in map: #{map}"
         end
       end
     end
