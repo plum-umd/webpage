@@ -12,7 +12,7 @@
     {
 	"name": "Andrew Ruef",
 	"position": "student",
-	"webpae": "www.cs.umd.edu/~awruef"
+	"webpage": "http://www.cs.umd.edu/~awruef"
     },
     {
 	"name": "Lu&iacute;s Pina",
@@ -45,7 +45,8 @@
     },
     {
 	"name": "Brianna Ren",
-	"position": "student"
+	"position": "student",
+        "webpage":"http://www.cs.umd.edu/~bren/"
     },
     {
 	"name": "Ted Smith",
