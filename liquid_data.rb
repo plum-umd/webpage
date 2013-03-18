@@ -2,8 +2,6 @@ module LiquidData
   class ValidationError < RuntimeError; end
 
   module ClassMethods
-    attr_reader :fields, :readers
-
     def fields
       @fields = [] unless @fields
       @fields
