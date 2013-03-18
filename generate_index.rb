@@ -23,21 +23,21 @@ class IndexGenerator
   
   def projects
     file_contents = File.read(Templates::PROJECTS)
-    entries = JSON.parse(file_contents).map { |x| Project.new(x) }
+    entries = JSON.parse(file_contents).map { |x| Project.parse(x) }
     entries.group_by { |x| x.status }
   end
   
   # Reads in the list of people and parses it
   def people
     file_contents = File.read(Templates::PEOPLE)
-    entries = JSON.parse(file_contents).map { |x| Person.new(x) }
+    entries = JSON.parse(file_contents).map { |x| Person.parse(x) }
     sorted = entries.sort_by { |x| (x.name.split('(')[0].strip.split[-1]) }
     sorted.group_by { |x| x.position }
   end
 
   def events
     file_contents = File.read(Templates::EVENTS)
-    entries = JSON.parse(file_contents).map { |x| Event.new(x) }
+    entries = JSON.parse(file_contents).map { |x| Event.parse(x) }
     { "events" => entries }
   end
   
