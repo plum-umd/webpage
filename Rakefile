@@ -3,8 +3,11 @@ task :default => ["index.html"]
 ssh_server = "junkfood.cs.umd.edu"
 remote_root = "/fs/www/projects/PL"
 
+index_deps = Dir.glob("config/*.json") + Dir.glob("models/*.rb") +
+            ["index.template", "liquid_data.rb", "generate_index.rb"]
+
 desc "Create index.html"
-file "index.html" do
+file "index.html" => index_deps do
   ruby "generate_index.rb"
 end
 
