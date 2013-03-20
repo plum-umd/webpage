@@ -2,9 +2,9 @@ require 'bundler/setup'
 require 'json'
 require 'liquid'
 
-require './models/person'
-require './models/project'
-require './models/event'
+require_relative 'models/person'
+require_relative 'models/project'
+require_relative 'models/event'
 
 # Tells us where things are.
 class Templates

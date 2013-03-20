@@ -1,4 +1,4 @@
-require './liquid_data'
+require_relative '../liquid_data'
 
 class Person
   include LiquidData
