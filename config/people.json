@@ -30,7 +30,7 @@
     },
     {
 	"name": "Yit Phang Khoo",
-	"position": "student",
+	"position": "alumni-phd",
 	"webpage": "http://www.cs.umd.edu/~khooyp"
     },
     {
@@ -52,6 +52,11 @@
 	"name": "Ted Smith",
 	"position": "student",
 	"webpage":"http://www.cs.umd.edu/~tedks"
+    },
+    {
+    	"name": "Yehuda Katz",
+    	"position": "student",
+    	"webpage": "http://www.cs.umd.edu/~yakatz/"
     },
     {
 	"name": "Jeff Foster",
