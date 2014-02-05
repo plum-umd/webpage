@@ -1,5 +1,11 @@
 [
     {
+	"name": "Wysteria",
+        "status" : "current",
+	"description": "A Programming Language for Generic, Mixed-Mode Multiparty Computations",
+	"webpage": "https://bitbucket.org/aseemr/wysteria/wiki/Home"
+    },
+    {
 	"name": "RTC",
         "status" : "current",
 	"description": "The Ruby Type Checker",
