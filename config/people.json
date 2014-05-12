@@ -1,5 +1,20 @@
 [
     {
+        "name": "Rebecca MacKenzie",
+        "position": "student",
+        "webpage": "http://www.ccs.neu.edu/home/rmacnz/"
+    },
+    {
+        "name": "Phuc Nguyen",
+        "position": "student",
+        "webpage": "http://www.cs.umd.edu/~pcn/"
+    },
+    {
+        "name": "Nicholas Labich",
+        "position": "student",
+        "webpage": "http://www.cs.umd.edu/~labichn/"
+    },
+    {
 	"name": "Aseem Rastogi",
 	"position": "student",
 	"webpage": "http://www.cs.umd.edu/~aseem/"
