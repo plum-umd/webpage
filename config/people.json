@@ -1,5 +1,10 @@
 [
     {
+        "name": "Rebecca MacKenzie",
+        "position": "student",
+        "webpage": "http://www.ccs.neu.edu/home/rmacnz/"
+    },
+    {
         "name": "Phuc Nguyen",
         "position": "student",
         "webpage": "http://www.cs.umd.edu/~pcn/"
