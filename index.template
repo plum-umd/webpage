@@ -132,6 +132,10 @@
 		    
 
 		    <tr>
+		      <td nowrap="nowrap">
+			<a href="https://twitter.com/plumlab" class="sidebar-item">@plumlab on Twitter</a> </td>
+		    </tr>
+		    <tr>
 		      <td nowrap="nowrap"> 
 			<a href="https://wiki.cs.umd.edu/plwiki" class="sidebar-item"><a href="https://github.com/plum-umd">GitHub</a> </td>
 		    </tr>
