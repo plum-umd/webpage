@@ -30,7 +30,7 @@ class IndexGenerator
   # Reads in the list of people and parses it
   def people
     file_contents = File.read(Templates::PEOPLE)
-    entries = JSON.parse(file_contents).map { |x| Person.parse(x) }
+    entries = JSON.parse(file_contents).map { |x| Person.parse(x) }.uniq
     sorted = entries.sort_by { |x| (x.name.split('(')[0].strip.split[-1]) }
     sorted.group_by { |x| x.position }
   end

@@ -1,7 +1,7 @@
 [
     {
         "name": "Rebecca MacKenzie",
-        "position": "student",
+        "position": "alumni-ugrad",
         "webpage": "http://www.ccs.neu.edu/home/rmacnz/"
     },
     {
@@ -93,11 +93,6 @@
 	"name": "Mike Hicks",
 	"position": "faculty",
 	"webpage": "http://www.cs.umd.edu/~mwh/"
-    },
-    {
-	"name": "David Van Horn",
-	"position": "faculty",
-	"webpage": "http://www.cs.umd.edu/~dvanhorn/"
     },
     {
 	"name": "Bill Pugh (emeritus)",
