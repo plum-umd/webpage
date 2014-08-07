@@ -12,7 +12,7 @@ To deploy the site, you can use the `deploy` rake target:
 
 This assumes you have the [bundler][] and [rake][] gems installed.
 
-The configuration (in the `conf/` directory) is based on two files:
+The configuration (in the `config/` directory) is based on two files:
 
  - `people.json` -- To describe people
  - `projects.json` -- To describe current projects

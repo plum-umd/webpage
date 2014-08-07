@@ -273,7 +273,8 @@
   <td> CMSC 631 </td>
   <td>&nbsp;</td>
   <td align="left"> Program Analysis and Understanding
-    (<a href="http://www.cs.umd.edu/class/spring2013/cmsc631/">Spring 2013</a>,
+    (<a href="https://www.cs.umd.edu/class/spring2014/cmsc631/">Spring 2014</a>,
+    <a href="http://www.cs.umd.edu/class/spring2013/cmsc631/">Spring 2013</a>,
     <a href="http://www.cs.umd.edu/class/fall2011/cmsc631/">Fall 2011</a>,
     <a href="http://www.cs.umd.edu/class/fall2010/cmsc631/">Fall 2010</a>,
     <a href="http://www.cs.umd.edu/class/fall2009/cmsc631/">Fall 2009</a>,
@@ -290,7 +291,9 @@
 <tr>
   <td> <a href="http://www.cs.umd.edu/class/spring2011/cmsc838g"> CMSC 838G </a></td>
   <td>&nbsp;</td>
-  <td align=left">Software Security (Spring 2011)</td></td>
+  <td align="left">Software Security 
+    (<a href="http://www.cs.umd.edu/class/spring2014/cmsc838g/">Spring 2014</a>,
+    Spring 2011)</td></td>
 		 </tr>
 
   <td> <a href="http://www.cs.umd.edu/class/spring2007/cmsc838f"> CMSC 838F </a> </td>

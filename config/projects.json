@@ -12,15 +12,45 @@
 	"webpage": "http://www.cs.umd.edu/projects/PL/redexer/"
     },
     {
+        "name": "Kitsune",
+        "status": "current",
+        "description": "Dynamic Software Updating for C programs",
+        "webpage": "http://kitsune-dsu.com/"
+    },
+    {
+        "name": "Rubah",
+        "status": "current",
+        "description": "Dynamic Software Updating for Java",
+        "webpage": "http://web.ist.utl.pt/~luis.pina/oopsla14/"
+    },
+    {
+        "name": " Build-it, Break-it, Fix-it",
+        "status": "current",
+        "description": "Secure coding contest",
+        "webpage": "https://builditbreakit.org"
+    },
+    {
+        "name": "Adapton",
+        "status": "current",
+        "description": "Composable, demand-driven incremental computation",
+        "webpage": "http://www.cs.umd.edu/~hammer/adapton/"
+    },
+    {
+        "name": "Lambda-Auth",
+        "status": "current",
+        "description": "Core cauclus for verifiable computation",
+        "webpage": "http://amiller.github.io/lambda-auth/"
+    },
+    {
 	"name": "Otter",
-        "status" : "current",
+        "status" : "past",
 	"description": "Symbolic execution for C programs",
 	"webpage": "https://bitbucket.org/khooyp/otter",
 	"long_desc": "project_descriptions/otter_desc.html"
     },
     {
 	"name": "COCO",
-        "status" : "current",
+        "status" : "past",
 	"description": "Type coercions for program rewriting",
 	"webpage": "http://research.microsoft.com/en-us/projects/coco/",
 	"long_desc": "coco_desc"
@@ -33,7 +63,7 @@
     },
     {
 	"name": "Marmoset",
-        "status" : "current",
+        "status" : "past",
 	"webpage": "http://marmoset.cs.umd.edu/",
 	"description": "Mining software repositories to help students learn to program"
     },

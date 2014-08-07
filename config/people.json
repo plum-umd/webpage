@@ -16,6 +16,7 @@
     },
     {
 	"name": "Lu&iacute;s Pina",
+        "webpage": " http://www.luispina.me",
 	"position": "student"
     },
     {
@@ -49,14 +50,24 @@
         "webpage":"http://www.cs.umd.edu/~bren/"
     },
     {
+        "name": "Neil Toronto",
+        "position": "postdoc",
+        "webpage":"http://students.cs.byu.edu/~ntoronto/"
+    },
+    {
 	"name": "Ted Smith",
-	"position": "student",
+	"position": "alumni-ugrad",
 	"webpage":"http://www.cs.umd.edu/~tedks"
     },
     {
     	"name": "Yehuda Katz",
     	"position": "student",
     	"webpage": "http://www.cs.umd.edu/~yakatz/"
+    },
+    {
+	"name": "David Van Horn",
+	"position": "faculty",
+	"webpage": "http://www.ccs.neu.edu/home/dvanhorn/"
     },
     {
 	"name": "Jeff Foster",
@@ -75,13 +86,17 @@
     },
     { 
 	"name": "Stevie Strickland",
-	"position": "postdoc",
+	"position": "alumni-postdoc",
 	"webpage":"http://www.cs.umd.edu/~sstrickl/"
     },
     {
 	"name": "Matthew Hammer",
 	"position": "postdoc",
 	"webpage": "http://www.cs.umd.edu/~hammer/"
+    },
+    {
+        "name": "Nate Parsons",
+        "position": "alumni-masters"
     },
     {
 	"name": "Nataliya Guts",
