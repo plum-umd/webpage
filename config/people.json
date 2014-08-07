@@ -1,5 +1,20 @@
 [
     {
+        "name": "Rebecca MacKenzie",
+        "position": "student",
+        "webpage": "http://www.ccs.neu.edu/home/rmacnz/"
+    },
+    {
+        "name": "Phuc Nguyen",
+        "position": "student",
+        "webpage": "http://www.cs.umd.edu/~pcn/"
+    },
+    {
+        "name": "Nicholas Labich",
+        "position": "student",
+        "webpage": "http://www.cs.umd.edu/~labichn/"
+    },
+    {
 	"name": "Aseem Rastogi",
 	"position": "student",
 	"webpage": "http://www.cs.umd.edu/~aseem/"
@@ -61,7 +76,7 @@
     },
     {
     	"name": "Yehuda Katz",
-    	"position": "student",
+    	"position": "alumni-masters",
     	"webpage": "http://www.cs.umd.edu/~yakatz/"
     },
     {
@@ -78,6 +93,11 @@
 	"name": "Mike Hicks",
 	"position": "faculty",
 	"webpage": "http://www.cs.umd.edu/~mwh/"
+    },
+    {
+	"name": "David Van Horn",
+	"position": "faculty",
+	"webpage": "http://www.cs.umd.edu/~dvanhorn/"
     },
     {
 	"name": "Bill Pugh (emeritus)",
