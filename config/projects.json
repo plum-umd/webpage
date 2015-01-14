@@ -1,5 +1,11 @@
 [
     {
+	"name": "Soft Contract Verification",
+	"status": "current",
+	"description": "Static verification for behavioral software contracts",
+	"webpage": "http://scv.umiacs.umd.edu/"
+    },
+    {
 	"name": "Wysteria",
         "status" : "current",
 	"description": "A Programming Language for Generic, Mixed-Mode Multiparty Computations",
