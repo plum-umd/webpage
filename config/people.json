@@ -262,6 +262,11 @@
 	"name": "David Darais",
 	"position": "student",
 	"webpage": "http://david.darais.com/"
+    },
+    {
+	"name": "Clayton Mentzer",
+	"position": "student",
+	"webpage": "https://github.com/cmentzer"
     }
 ]
 
