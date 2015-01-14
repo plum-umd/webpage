@@ -77,7 +77,7 @@
     {
 	"name": "David Van Horn",
 	"position": "faculty",
-	"webpage": "http://www.ccs.neu.edu/home/dvanhorn/"
+	"webpage": "http://www.cs.umd.edu/~dvanhorn/"
     },
     {
 	"name": "Jeff Foster",
@@ -252,6 +252,11 @@
 	"name":"Nikhil Swamy",
 	"position": "alumni-phd",
 	"webpage":"http://research.microsoft.com/en-us/people/nswamy/"
+    },
+    {
+        "name": "ThanhVu (Vũ) Nguyen",
+        "position": "postdoc",
+        "webpage": "http://www.cs.umd.edu/~tnguyen/"
     }
 ]
 
