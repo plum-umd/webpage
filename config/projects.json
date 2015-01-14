@@ -1,6 +1,6 @@
 [
     {
-	"name": "Soft Contract Verification",
+	"name": "Soft Contracts",
 	"status": "current",
 	"description": "Static verification for behavioral software contracts",
 	"webpage": "http://scv.umiacs.umd.edu/"
