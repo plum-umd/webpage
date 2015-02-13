@@ -1,5 +1,10 @@
 [
     {
+        "name": "Andrew Miller",
+        "position": "student",
+        "webpage": "http://cs.umd.edu/~amiller/"
+    },
+    {
         "name": "Rebecca MacKenzie",
         "position": "alumni-ugrad",
         "webpage": "http://www.ccs.neu.edu/home/rmacnz/"
