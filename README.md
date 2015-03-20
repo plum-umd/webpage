@@ -6,6 +6,11 @@ To generate the site just run the following commands:
     $ bundle install      # To get gem dependencies
     $ rake install        # To build index.html and then install it.
 
+If you run into problems with old versions of [liquid][] or [JSON][]
+that you might have installed, run this command:
+
+    $ bundle update
+
 To deploy the site, you can use the `deploy` rake target:
 
     rake deploy[username] # e.g., rake deploy[sstrickl]
