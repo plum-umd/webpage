@@ -45,7 +45,7 @@
         "name": "Adapton",
         "status": "current",
         "description": "Composable, demand-driven incremental computation",
-        "webpage": "http://www.cs.umd.edu/~hammer/adapton/"
+        "webpage": "http://adapton.org"
     },
     {
         "name": "Lambda-Auth",
