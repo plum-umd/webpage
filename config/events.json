@@ -1,5 +1,10 @@
 [
     {
+        "name" : "TFP 2016",
+        "url"  : "http://tfp2016.org/",
+        "description" : "The 17th Symposium on Trends in Functional Programming"
+    },
+    {
         "name" : "MAPLS 2013",
         "url"  : "mapls2013",
         "description" : "Mid-Atlantic Programming Languages Seminar, colocated with <a href = \"http://www.cis.upenn.edu/~stevez/njpls/\">NJPLS</a>, April 2013"
