@@ -1,5 +1,11 @@
 [
     {
+	"name": "Wys*",
+	"status": "current",
+	"description": "A Verified Language Extension for Secure Multi-party Computations",
+	"webpage": "https://github.com/FStarLang/FStar/tree/master/examples/wysteria"
+    },
+    {
 	"name": "Soft Contracts",
 	"status": "current",
 	"description": "Static verification for behavioral software contracts",
