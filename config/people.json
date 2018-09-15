@@ -1,7 +1,7 @@
 [
     {
         "name": "Kesha Hietala",
-        "position": "student",
+        "position": "student"
     },
     {
         "name": "Ian Sweet",
@@ -75,7 +75,7 @@
     {
 	"name": "Kristopher Micinski",
 	"position": "alumni-phd",
-	"webpage": "http://www.cs.umd.edu/~micinski"
+	"webpage": "http://kmicinski.com"
     },
     {
 	"name": "Jinseong Jeon",
