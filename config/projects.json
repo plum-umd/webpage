@@ -1,7 +1,29 @@
 [
     {
-	"name": "Wys*",
+	"name": "Probabilistic Programming for Quantifying Information Flow",
 	"status": "current",
+	"description": "Static analysis for preventing information leaks"
+    },
+    {
+	"name": "Types for Oblivious Computation",
+	"status": "current",
+	"description": "Using type systems to ensure the security of cryptographic code",
+	"webpage": "https://oblivm.com",
+    },
+    {
+	"name": "Random/Fuzz Testing",
+	"status": "current",
+	"description": "Developing and evaluating methods for uncovering bugs through automated testing"
+    },
+    {
+	"name": "RDL",
+	"status": "current",
+	"description": "Types, type checking, and contracts for Ruby",
+	"webpage": "https://github.com/plum-umd/rdl"
+    },
+    {
+	"name": "Wys*",
+	"status": "past",
 	"description": "A Verified Language Extension for Secure Multi-party Computations",
 	"webpage": "https://github.com/FStarLang/FStar/tree/master/examples/wysteria"
     },
@@ -13,49 +35,49 @@
     },
     {
 	"name": "Wysteria",
-        "status" : "current",
+        "status" : "past",
 	"description": "A Programming Language for Generic, Mixed-Mode Multiparty Computations",
 	"webpage": "https://bitbucket.org/aseemr/wysteria/wiki/Home"
     },
     {
 	"name": "RTC",
-        "status" : "current",
+        "status" : "past",
 	"description": "The Ruby Type Checker",
 	"webpage": "https://github.com/plum-umd/rtc"
     },
     {
 	"name": "Redexer",
-        "status" : "current",
+        "status" : "past",
 	"description": "Binary rewriting for Android security",
 	"webpage": "http://www.cs.umd.edu/projects/PL/redexer/"
     },
     {
         "name": "Kitsune",
-        "status": "current",
+        "status": "past",
         "description": "Dynamic Software Updating for C programs",
         "webpage": "http://kitsune-dsu.com/"
     },
     {
         "name": "Rubah",
-        "status": "current",
+        "status": "past",
         "description": "Dynamic Software Updating for Java",
         "webpage": "http://web.ist.utl.pt/~luis.pina/oopsla14/"
     },
     {
-        "name": " Build-it, Break-it, Fix-it",
+        "name": "Build-it, Break-it, Fix-it",
         "status": "current",
-        "description": "Secure coding contest",
+        "description": "Studying secure programming through contests and user studies",
         "webpage": "https://builditbreakit.org"
     },
     {
         "name": "Adapton",
-        "status": "current",
+        "status": "past",
         "description": "Composable, demand-driven incremental computation",
         "webpage": "http://adapton.org"
     },
     {
         "name": "Lambda-Auth",
-        "status": "current",
+        "status": "past",
         "description": "Core cauclus for verifiable computation",
         "webpage": "http://amiller.github.io/lambda-auth/"
     },
@@ -75,7 +97,7 @@
     },
     {
 	"name": "FindBugs",
-        "status" : "current",
+        "status" : "past",
 	"webpage": "http://findbugs.sourceforge.net/",
 	"description": "A program that finds bugs in Java programs"
     },
@@ -87,7 +109,7 @@
     },
     {
 	"name": "Expositor",
-        "status" : "current",
+        "status" : "past",
 	"description": "Scriptable time-travel debugging",
 	"webpage": "https://bitbucket.org/khooyp/expositor"
     },
