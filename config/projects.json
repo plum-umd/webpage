@@ -8,7 +8,7 @@
 	"name": "Types for Oblivious Computation",
 	"status": "current",
 	"description": "Using type systems to ensure the security of cryptographic code",
-	"webpage": "https://oblivm.com",
+	"webpage": "https://oblivm.com"
     },
     {
 	"name": "Random/Fuzz Testing",
