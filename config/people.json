@@ -1,12 +1,40 @@
 [
     {
-        "name": "Kyle Headley",
+        "name": "Kesha Hietala",
         "position": "student",
+    },
+    {
+        "name": "Ian Sweet",
+        "position": "student",
+	"webpage": "http://www.cs.umd.edu/~ins/"
+
+    },
+    {
+        "name": "Andrew Ruef",
+        "position": "student",
+	"webpage": "http://www.cs.umd.edu/~awruef/"
+
+    },
+    {
+        "name": "Robert Rand",
+        "position": "postdoc",
+	"webpage": "http://www.cis.upenn.edu/~rrand/"
+
+    },
+    {
+        "name": "Leonidas Lampropoulos",
+        "position": "postdoc",
+	"webpage": "http://www.cis.upenn.edu/~llamp/"
+
+    },
+    {
+        "name": "Kyle Headley",
+        "position": "alumni-ugrad",
         "webpage": "http://www.cs.umd.edu/~kheadley/"
     },
     {
         "name": "Andrew Miller",
-        "position": "student",
+        "position": "alumni-phd",
         "webpage": "http://cs.umd.edu/~amiller/"
     },
     {
@@ -21,17 +49,17 @@
     },
     {
         "name": "Nicholas Labich",
-        "position": "student",
+        "position": "alumni-masters",
         "webpage": "http://www.cs.umd.edu/~labichn/"
     },
     {
 	"name": "Aseem Rastogi",
-	"position": "student",
+	"position": "alumni-phd",
 	"webpage": "http://www.cs.umd.edu/~aseem/"
     },
     {
 	"name": "James Parker",
-	"position": "student",
+	"position": "alumni-masters",
 	"webpage": " http://jamesparker.me/"
     },
     {
@@ -42,16 +70,16 @@
     {
 	"name": "Lu&iacute;s Pina",
         "webpage": " http://www.luispina.me",
-	"position": "student"
+	"position": "alumni-phd"
     },
     {
 	"name": "Kristopher Micinski",
-	"position": "student",
+	"position": "alumni-phd",
 	"webpage": "http://www.cs.umd.edu/~micinski"
     },
     {
 	"name": "Jinseong Jeon",
-	"position": "student",
+	"position": "alumni-phd",
 	"webpage": "http://www.cs.umd.edu/~jsjeon/"
     },
     {
@@ -61,12 +89,12 @@
     },
     {
 	"name":"Piotr Mardziel",
-	"position": "postdoc",
+	"position": "alumni-phd",
 	"webpage": "http://piotr.mardziel.com"
     },
     {
 	"name": "Karla Saur",
-	"position": "student",
+	"position": "alumni-phd",
 	"webpage":"http://www.cs.umd.edu/~ksaur/"
     },
     {
@@ -76,7 +104,7 @@
     },
     {
         "name": "Neil Toronto",
-        "position": "postdoc",
+        "position": "alumni-postdoc",
         "webpage":"http://www.cs.umd.edu/~ntoronto/"
     },
     {
@@ -90,7 +118,7 @@
 	"webpage": "http://www.cs.umd.edu/~dvanhorn/"
     },
     {
-	"name": "Jeff Foster",
+	"name": "Jeff Foster (adjunct)",
 	"position": "faculty",
 	"webpage": "http://www.cs.umd.edu/~jfoster"
     },
@@ -111,7 +139,7 @@
     },
     {
 	"name": "Matthew Hammer",
-	"position": "postdoc",
+	"position": "alumni-postdoc",
 	"webpage": "http://www.cs.umd.edu/~hammer/"
     },
     {
@@ -265,17 +293,17 @@
     },
     {
         "name": "ThanhVu (Vũ) Nguyen",
-        "position": "postdoc",
+        "position": "alumni-postdoc",
         "webpage": "http://www.cs.umd.edu/~tnguyen/"
     },
     {
 	"name": "David Darais",
-	"position": "student",
+	"position": "alumni-phd",
 	"webpage": "http://david.darais.com/"
     },
     {
 	"name": "Clayton Mentzer",
-	"position": "student",
+	"position": "alumni-ugrad",
 	"webpage": "https://github.com/cmentzer"
     }
 ]
