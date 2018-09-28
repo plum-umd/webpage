@@ -1,4 +1,12 @@
 [
+    {   "name": "Niki Vazou",
+        "position": "alumni-postdoc",
+        "webpage": "https://nikivazou.github.io/"
+    },
+    {   "name": "Tom Gilray",
+        "position": "alumni-postdoc",
+        "webpage": "https://thomas.gilray.org/"
+    },
     {
         "name": "Kesha Hietala",
         "position": "student"
@@ -61,11 +69,6 @@
 	"name": "James Parker",
 	"position": "alumni-masters",
 	"webpage": " http://jamesparker.me/"
-    },
-    {
-	"name": "Andrew Ruef",
-	"position": "student",
-	"webpage": "http://www.cs.umd.edu/~awruef"
     },
     {
 	"name": "Lu&iacute;s Pina",
@@ -132,7 +135,7 @@
 	"position": "faculty",
 	"webpage": "http://www.cs.umd.edu/~pugh/"
     },
-    { 
+    {
 	"name": "Stevie Strickland",
 	"position": "alumni-postdoc",
 	"webpage":"http://www.cs.umd.edu/~sstrickl/"
@@ -161,7 +164,7 @@
 	"position": "alumni-masters",
 	"webpage": ""
     },
-    { 
+    {
 	"name": "Elnatan Reisner",
 	"position": "alumni-masters",
 	"webpage": "http://www.cs.umd.edu/~elnatan"
@@ -201,7 +204,7 @@
 	"position": "alumni-postdoc",
 	"webpage": "http://www.cs.colorado.edu/~bec/"
     },
-    { 
+    {
 	"name": "Avik Chaudhuri",
 	"position": "alumni-postdoc",
 	"webpage": "http://www.cs.umd.edu/~avik"
@@ -307,4 +310,3 @@
 	"webpage": "https://github.com/cmentzer"
     }
 ]
-
